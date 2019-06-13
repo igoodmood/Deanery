@@ -1,0 +1,304 @@
+#download {
+    visibility: hidden;
+    background: none repeat scroll 0 0 padding-box #E87858;
+    border-radius: 4px;
+    color: #FFFFFF;
+    top: 1.2vw;
+    right: 3.7vh;
+    display: inline-block;
+    font: 2.3vh "Google Sans";
+    padding: 0.32em 0.34286em 0.3714em 0.34286em;
+    position: absolute;
+    z-index: 99;
+    cursor: pointer;
+}
+
+#download2 {
+    visibility: hidden;
+    border-radius: 4px;
+    color: #FFFFFF;
+    top: 1.2vw;
+    right: 21vh;
+    display: inline-block;
+    font: 2.3vh "Google Sans";
+    padding: 0.32em 0.34286em 0.3714em 0.63571em;
+    position: absolute;
+    z-index: 99;
+    cursor: pointer;
+}
+
+#download:before {
+    background: url("padlock.png") no-repeat scroll center center / 100% auto rgba(0, 0, 0, 0);
+    content: "";
+    display: inline-block;
+    height: 12px;
+    margin-right: 2px;
+    position: relative;
+    left: 0px;
+    top: -1.3px;
+    vertical-align: middle;
+    width: 12px;
+    z-index: 99;
+}
+
+#download2:before {
+    background: url("padlock.png") no-repeat scroll center center / 100% auto rgba(0, 0, 0, 0);
+    content: "";
+    display: inline-block;
+    height: 12px;
+    margin-right: 2px;
+    position: relative;
+    left: -3px;
+    top: -1.3px;
+    vertical-align: middle;
+    width: 12px;
+}
+
+#download3 {
+    visibility: hidden;
+    background: none repeat scroll 0 0 padding-box #037971;
+    border-radius: 4px;
+    color: #FFFFFF;
+    /*top: 1.2vw;*/
+    /*right: 3.5vh;*/
+    display: inline-block;
+    font: 2.3vh "Google Sans";
+    padding: 0.32em 0.7486em 0.3714em 0.7071em;
+    position: absolute;
+    z-index: 99;
+    cursor: pointer;
+}
+
+#download3:before {
+    background: url("man-user.png") no-repeat scroll center center / 100% auto rgba(0, 0, 0, 0);
+    content: "";
+    display: inline-block;
+    height: 12px;
+    margin-right: 2px;
+    position: relative;
+    left: 0px;
+    top: -1.3px;
+    vertical-align: middle;
+    width: 12px;
+}
+
+#download4 {
+    visibility: hidden;
+    background: none repeat scroll 0 0 padding-box #B7392D;
+    border-radius: 4px;
+    color: #FFFFFF;
+    /*top: 1.2vw;*/
+    /*right: 21vh;*/
+    display: inline-block;
+    font: 2.3vh "Google Sans";
+    padding: 0.32em 0.7286em 0.3714em 0.7071em;
+    position: absolute;
+    z-index: 99;
+    cursor: pointer;
+}
+
+#download4:before {
+    background: url("admin.png") no-repeat scroll center center / 100% auto rgba(0, 0, 0, 0);
+    content: "";
+    display: inline-block;
+    height: 12px;
+    margin-right: 2px;
+    position: relative;
+    left: 0px;
+    top: -1.3px;
+    vertical-align: middle;
+    width: 12px;
+}
+
+#download5 {
+    visibility: hidden;
+    background: none repeat scroll 0 0 padding-box #D18828;
+    border-radius: 4px;
+    color: #FFFFFF;
+    top: 1.2vw;
+    right: 19.5vh;
+    display: inline-block;
+    font: 2.3vh "Google Sans";
+    padding: 0.32em 0.7286em 0.3714em 0.7071em;
+    position: absolute;
+    z-index: 99;
+    cursor: pointer;
+}
+
+#download5:before {
+    background: url("admin.png") no-repeat scroll center center / 100% auto rgba(0, 0, 0, 0);
+    content: "";
+    display: inline-block;
+    height: 12px;
+    margin-right: 2px;
+    position: relative;
+    left: 0px;
+    top: -1.3px;
+    vertical-align: middle;
+    width: 12px;
+}
+
+.user-menu-wrap {
+    font: 2.3vh "Google Sans";
+    width: 17vh;
+    top: 1.2vw;
+    right: 1.2vh;
+    position: absolute;
+}
+
+.mini-photo-wrapper {
+    display: block;
+}
+
+.mini-photo {
+    border-radius: 50%;
+}
+
+.menu-container {
+    visibility: hidden;
+    opacity: 0;
+}
+.menu-container.active {
+    list-style-type: none;
+    visibility: visible;
+    opacity: 1;
+    transition: all .3s ease-in-out;
+}
+
+.user-menu {
+    z-index: 101;
+    list-style-type: none;
+    font: 2.3vh "Google Sans";
+    position: absolute;
+    right: -37vh;
+    background-color: #fff;
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    padding: 0em;
+    margin-top: 35px;
+}
+.user-menu .user-menu-link {
+    z-index: 101;
+    list-style-type: none;
+    cursor: pointer;
+    display: block;
+    font: 2.3vh "Google Sans";
+    text-decoration: none;
+    color: #444;
+    padding: 5px 10px;
+}
+.user-menu .user-menu-link:hover {
+    background: -webkit-linear-gradient(45deg, rgba(209, 0, 42, 0.6) 0%, #0E5DC4 100%);
+    color: #fff;
+}
+.user-menu:before {
+    list-style-type: none;
+    position: absolute;
+    margin-top: -1vw;
+    right: 2vh;
+    display: inline-block;
+    content: "";
+    border: 8px solid transparent;
+    /*border-bottom-color: #c7fe08;*/
+}
+.user-menu:after {
+    z-index: 101;
+    list-style-type: none;
+    position: absolute;
+    margin-top: -3.1vw;
+    right: 2vh;
+    display: inline-block;
+    content: "";
+    border: 7px solid transparent;
+    border-bottom-color: #fff;
+}
+
+.below_menu li {
+    cursor: pointer;
+    z-index: 101;
+    list-style-type: none;
+    font-family: "Google Sans", sans-serif;
+    color: #FFFFFF;
+}
+
+.below_menu {
+    z-index: 101;
+    position: absolute;
+    padding: 1em 0 0 10em;
+    margin: -18.5em 0 0 -85em;
+}
+
+.user-menu-wrap2 {
+    z-index: 101;
+    list-style-type: none;
+    font: 2.3vh "Google Sans";
+    width: 16vh;
+    top: 1.2vw;
+    right: 19vh;
+    position: absolute;
+}
+
+.mini-photo-wrapper2 {
+    display: block;
+}
+
+.mini-photo2 {
+    border-radius: 50%;
+}
+
+.menu-container2 {
+    visibility: hidden;
+    opacity: 0;
+}
+.menu-container2.active {
+    visibility: visible;
+    opacity: 1;
+    transition: all .3s ease-in-out;
+}
+
+.user-menu2 {
+    list-style-type: none;
+    font: 2.3vh "Google Sans";
+    position: absolute;
+    right: -37vh;
+    background-color: #fff;
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    padding: 0em;
+    margin-top: 35px;
+    z-index: 100;
+}
+.user-menu2 .user-menu-link2 {
+    list-style-type: none;
+    cursor: pointer;
+    z-index: 100;
+    display: block;
+    font: 2.3vh "Google Sans";
+    text-decoration: none;
+    color: #444;
+    padding: 5px 10px;
+}
+.user-menu2 .user-menu-link2:hover {
+    background: -webkit-linear-gradient(45deg, rgba(209, 0, 42, 0.6) 0%, #0E5DC4 100%);
+    color: #fff;
+}
+.user-menu2:before {
+    position: absolute;
+    z-index: 100;
+    margin-top: -1vw;
+    right: 2vh;
+    display: inline-block;
+    content: "";
+    border: 8px solid transparent;
+    /*border-bottom-color: #c7fe08;*/
+}
+.user-menu2:after {
+    z-index: 100;
+    position: absolute;
+    margin-top: -7.2vw;
+    right: 2vh;
+    display: inline-block;
+    content: "";
+    border: 7px solid transparent;
+    border-bottom-color: #fff;
+}
